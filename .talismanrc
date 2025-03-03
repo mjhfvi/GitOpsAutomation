@@ -1,4 +1,5 @@
 ---
 fileignoreconfig:
-
+  - filename: automation/Full_Pipeline.groovy
+    checksum: b39c4c396beb0f41dfbca9ba50a63bf9795bf7327be17558e426d9f371b53693
 version: ""
