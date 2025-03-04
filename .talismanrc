@@ -1,5 +1,19 @@
 ---
 fileignoreconfig:
-  - filename: jenkins/GlobalSharedLibraries/vars/GitSecretsReport.groovy
-    checksum: 3a70a664db6e0b01757c0697c8340b647561d68b681a1fba9342d92417485a7e
+  - filename: jenkins/README.md
+    checksum: 517511b8239bcbcc6f2b993eb46e3e8d5deb099ab6a1dfbff432023b62fa8776
+  - filename: documentation/PRECOMMIT.md
+    checksum: 54d1bd8445c584ebf9d735ff89cdfe5a263cbbbc9e15edd96e61c737b6843ebc
+  - filename: documentation/PIPELINES.md
+    checksum: b6876ecc8ac21fa6cafc9eacb0304b97767c18a5523a2c5bbb9aa6c8b8816897
+  - filename: jenkins/pipelines/Pipeline_Build_Continuous_Deployment.groovy
+    checksum: 8dd10c8b672159bcbb1f267e1c1019ea596c6a49ef7d434cb6731c4c4fac2c77
+  - filename: jenkins/pipelines/Pipeline_Build_Terraform.groovy
+    checksum: 8dc1db9febfd2269152bec4a0f1ad8cd61d9e5d679b3343e5489d9d647a75da3
+  - filename: jenkins/pipelines/Pipeline_Build_Docker.groovy
+    checksum: 162e558f12284616df8b106eafeec2545847d11cbfffc5f0b2d1b135c9a1fd4c
+  - filename: jenkins/helmfile-jenkins.yaml
+    checksum: 958bbd23990a1d94445779009c6bc8b624afd1379a14c08fa5ca87fd2d9c63a9
+  - filename: jenkins/pipelines/Pipeline_Git_Code_Validation.groovy
+    checksum: 71954919e0decbf299f57f4c71a97842b0a022244d8c6918fc5a33f23db3fa4b
 version: ""
