@@ -9,6 +9,7 @@
     "cloudbees",
     "customtools",
     "Golangci",
+    "Helmfile",
     "jcasc",
     "jenkinsci"
   ]
