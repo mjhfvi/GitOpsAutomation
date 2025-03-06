@@ -12,14 +12,17 @@ ensuring secure and reliable deployments.
 1. Jenkins Blue-Green Deployment with Helm: [Jenkins Deployment](https://github.com/mjhfvi/GitOps_Jenkins_Deployment)
    - jenkins iac config include:
      - GitOps Pipeline Jobs
-     - pre configure Jenkins loggers, Credentials, Certificates, 'Jenkins Shared Library'
+     - pre configure Jenkins loggers, Credentials, Certificates, **'Jenkins Shared Library'**
      - pre installed Plugins
 2. Terraform Module for iam Security Events Monitor in AWS: [AWS iam Security Events Monitor](https://github.com/mjhfvi/terraform-aws-iam-security-events-monitor)
    - modular code with multiple variables:
-     - setup security monitor for log events like 'create user', ' create access key' and more
+     - setup security monitor for log events like **'create user'**, **' create access key'** and more
      - send alerts in email or sms
 3. Helm Charts: [Helm Charts](https://github.com/mjhfvi/GitOps_Helm_Charts)
-   - Kali Linux chart for Kubernetes security and Network Troubleshooting
+   - **Kali Linux web access over HTTP** chart for Kubernetes security and Network Troubleshooting
+   - **VSCode web access over HTTP** chart for testing and debugging
+   - **Chromium browser web access over HTTP** chart for testing and debugging
+   - **Terminal web access over HTTP** for testing and debugging
 
 ## 🛠️ <font color="purple">Tech Stack</font>
 
