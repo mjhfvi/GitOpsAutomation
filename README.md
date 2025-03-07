@@ -18,11 +18,11 @@ It incorporates security controls at every stage of the software development lif
      - security monitor for log events like **'create user'**, **' create access key'** and others 
      - send alerts in email or sms
 
-3. GitOps Helm Charts: [Helm Charts](https://github.com/mjhfvi/GitOps_Helm_Charts)
-   - **Kali Linux web access over HTTP** chart for Kubernetes security and Network Troubleshooting
-   - **VSCode web access over HTTP** chart for testing and debugging
-   - **Chromium browser web access over HTTP** chart for testing and debugging
-   - **Terminal web access over HTTP** for testing and debugging
+3. Cluster Troubleshooting Helm Charts: [Helm Charts](https://github.com/mjhfvi/GitOps_Helm_Charts)
+   - **Kali Linux** web access over HTTP chart for Kubernetes Security and Network Troubleshooting
+   - **VSCode** web access over HTTP chart for Testing and Debugging
+   - **Chromium browser** web access over HTTP chart for Testing and Debugging
+   - **Terminal** web access over HTTP for Testing and Debugging
 
 ## 🛠️ <code style="color : purple">Tech Stack</code>
 
