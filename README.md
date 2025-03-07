@@ -11,17 +11,17 @@ It incorporates security controls at every stage of the software development lif
    - jenkins iac config include:
      <details><summary></a></summary>
         
-     - Pre-Configure Pipeline Jobs
-     - Pre-Configure Jenkins Loggers, Credentials, Certificates, 'Jenkins Shared Library'
-     - Pre-installed Jenkins Plugins
+     - Pre-Configure Pipeline Jobs.
+     - Pre-Configure Jenkins Loggers, Credentials, Certificates, 'Jenkins Shared Library'.
+     - Pre-installed Jenkins Plugins.
      </details>
 
 2. Terraform Module for AWS iam Security Events Monitor in AWS: [AWS iam Security Events Monitor](https://github.com/mjhfvi/terraform-aws-iam-security-events-monitor)
    - modular code with multiple variables:
      <details><summary></a></summary>
         
-     - security monitor for log events like **'create user'**, **' create access key'** and others \
-     - send alerts in email or sms
+     - security monitor for log events like **'create user'**, **' create access key'** and others.
+     - send alerts in email or sms.
      </details>
 
 3. Cluster Troubleshooting Helm Charts: [Helm Charts](https://github.com/mjhfvi/GitOps_Helm_Charts)
