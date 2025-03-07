@@ -2,23 +2,23 @@
 
 ## 📌 <code style="color : purple">Overview</code>
 
-This repository is designed to demonstrate DevSecOps best practices projects by automating, security, GitOps and more.
-and GitOps workflows using modern tooling.
-It incorporates security controls at every stage of the software development lifecycle (SDLC),
-ensuring secure and reliable deployments.
+This repository is designed to demonstrate DevSecOps best practices projects by automating, security and GitOps workflows using modern tooling.\
+It incorporates security controls at every stage of the software development lifecycle (SDLC), ensuring secure and reliable deployments.
 
 ## 🧰 <code style="color : purple">Projects list</code>
 
-1. Jenkins Blue-Green Deployment with Helm: [Jenkins Deployment](https://github.com/mjhfvi/GitOps_Jenkins_Deployment)
+1. Jenkins Blue-Green Deployment using Helm charts: [Jenkins Deployment](https://github.com/mjhfvi/GitOps_Jenkins_Deployment)
    - jenkins iac config include:
      - Pre-Configure Pipeline Jobs
      - Pre-Configure Jenkins Loggers, Credentials, Certificates, 'Jenkins Shared Library'
      - Pre-installed Jenkins Plugins
-2. Terraform Module for iam Security Events Monitor in AWS: [AWS iam Security Events Monitor](https://github.com/mjhfvi/terraform-aws-iam-security-events-monitor)
+
+2. Terraform Module for AWS iam Security Events Monitor in AWS: [AWS iam Security Events Monitor](https://github.com/mjhfvi/terraform-aws-iam-security-events-monitor)
    - modular code with multiple variables:
-     - setup security monitor for log events like **'create user'**, **' create access key'** and more
+     - security monitor for log events like **'create user'**, **' create access key'** and others 
      - send alerts in email or sms
-3. Helm Charts: [Helm Charts](https://github.com/mjhfvi/GitOps_Helm_Charts)
+
+3. GitOps Helm Charts: [Helm Charts](https://github.com/mjhfvi/GitOps_Helm_Charts)
    - **Kali Linux web access over HTTP** chart for Kubernetes security and Network Troubleshooting
    - **VSCode web access over HTTP** chart for testing and debugging
    - **Chromium browser web access over HTTP** chart for testing and debugging
@@ -26,10 +26,10 @@ ensuring secure and reliable deployments.
 
 ## 🛠️ <code style="color : purple">Tech Stack</code>
 
-- **CI/CD**: Jenkins, GitHub Actions
-- **Infrastructure**: Kubernetes, Helm, Terraform
+- **CI/CD**: Jenkins, Pipelines 
+- **Infrastructure**: Kubernetes, Helm, Terraform, AWS
 - **Security**: Pre-commit, Trivy, Snyk, Checkov, SonarCube
-- **Automation**: Python scripts, Bash scripting
+- **Automation**: Python scripts, Bash scripts
 - **Monitoring & Logging**: OpenSearch, Prometheus, Grafana
 
 ## 📧 <code style="color : purple">Contact</code>
