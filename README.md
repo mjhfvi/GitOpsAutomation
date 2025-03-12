@@ -8,31 +8,38 @@ It incorporates security controls at every stage of the software development lif
 ## 🧰 <code style="color : purple">Projects list</code>
 
 1. Jenkins Blue-Green Deployment using Helm charts: [Jenkins Deployment](https://github.com/mjhfvi/GitOps_Jenkins_Deployment)
+
    - jenkins iac config include:
      <details><summary></a></summary>
-        
+
      - Pre-Configure Pipeline Jobs.
      - Pre-Configure Jenkins Loggers, Credentials, Certificates, 'Jenkins Shared Library'.
      - Pre-installed Jenkins Plugins.
      </details>
 
 2. Terraform Module for AWS iam Security Events Monitor in AWS: [AWS iam Security Events Monitor](https://github.com/mjhfvi/terraform-aws-iam-security-events-monitor)
+
    - modular code with multiple variables:
      <details><summary></a></summary>
-        
+
      - security monitor for log events like **'create user'**, **' create access key'** and others.
      - send alerts in email or sms.
      </details>
 
 3. Cluster Troubleshooting Helm Charts: [Helm Charts](https://github.com/mjhfvi/GitOps_Helm_Charts)
+
    - **Kali Linux** web access over HTTP chart for Kubernetes Security and Network Troubleshooting
    - **VSCode** web access over HTTP chart for Testing and Debugging
    - **Chromium browser** web access over HTTP chart for Testing and Debugging
    - **Terminal** web access over HTTP for Testing and Debugging
 
+4. Ngnix Windows Compiler in Docker: [Ngnix Docker Compiler](https://github.com/mjhfvi/GitOps_Ngnix_Docker_Compiler)
+   - Nginx compiler in dockerfile for 'windows 64Bit Nano'
+   - should be run in ci/cd with environment variables for the nginx version
+
 ## 🛠️ <code style="color : purple">Tech Stack</code>
 
-- **CI/CD**: Jenkins, Pipelines 
+- **CI/CD**: Jenkins, Pipelines
 - **Infrastructure**: Kubernetes, Helm, Terraform, AWS
 - **Security**: Pre-commit, Trivy, Snyk, Checkov, SonarCube
 - **Automation**: Python scripts, Bash scripts
