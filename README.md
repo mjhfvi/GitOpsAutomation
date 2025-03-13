@@ -28,12 +28,14 @@ It incorporates security controls at every stage of the software development lif
 
 3. Cluster Troubleshooting Helm Charts: [Helm Charts](https://github.com/mjhfvi/GitOps_Helm_Charts)
 
+4. Continuous Testing tools in pipeline [CT Pipelines](https://github.com/mjhfvi/GitOps_Continuous_Testing)
+
    - **Kali Linux** web access over HTTP chart for Kubernetes Security and Network Troubleshooting
    - **VSCode** web access over HTTP chart for Testing and Debugging
    - **Chromium browser** web access over HTTP chart for Testing and Debugging
    - **Terminal** web access over HTTP for Testing and Debugging
 
-4. Ngnix Windows Compiler in Docker: [Ngnix Docker Compiler](https://github.com/mjhfvi/GitOps_Ngnix_Docker_Compiler)
+5. Ngnix Windows Compiler in Docker: [Ngnix Docker Compiler](https://github.com/mjhfvi/GitOps_Ngnix_Docker_Compiler)
    - Nginx compiler in dockerfile for 'windows 64Bit Nano'
    - should be run in ci/cd with environment variables for the nginx version
 
